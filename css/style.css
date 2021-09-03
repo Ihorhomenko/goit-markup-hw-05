@@ -167,6 +167,7 @@ body {
 
 /* footer */
 .footer {
+  /* display: flex; */
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -482,6 +483,7 @@ body {
   text-align: center;
 }
 .cards-item {
+  background-color: var(--primary-white-color);
   border-color: #ffffff;
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -697,7 +699,7 @@ body {
   width: 100%;
   height: 100%;
 
-  padding: 36px 24px;
+  padding: 63px 24px;
 
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
@@ -707,6 +709,7 @@ body {
 }
 
 .overlay-text {
+  margin: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.56;
@@ -719,3 +722,30 @@ body {
   transform: translateY(0);
   opacity: 1;
 }
+
+/* .footer-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 93px;
+}
+
+
+
+.footer-label {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+}
+
+.input-footer {
+  width: 358px;
+  height: 50px;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: inherit;
+} */
